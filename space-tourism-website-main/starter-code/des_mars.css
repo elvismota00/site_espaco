@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: manrope;
+    src: url(fonts/Manrope/static/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: assassin;
+    src: url(fonts/assassin/Assassin$.ttf);
+}
+
+body {
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    font-family: roboto-light;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    width: 55%; 
+    height: 90px;
+    margin-top: 40px;
+    background: #ffffff18; 
+    backdrop-filter: blur(10px);
+    align-items: center;
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+
+.logo {
+    display: block;
+    width: 70px; 
+    height: auto;
+    margin-left: 40px;
+    margin-top: 54px;
+}
+
+.logo img {
+    width: 90%; 
+    margin-left: 10%; 
+}
+
+#pri {
+    margin-left: 80px;
+}
+
+nav ul li {
+    float: left; 
+    color: #fff; 
+    width: auto; 
+    margin: 0.9em;
+    list-style: none;
+    font-size: 18px;
+    font-family: manrope;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+.container {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgmars {
+    margin-right: 200px;
+    width: 400px;
+    height: 500px;
+    display: block;
+}
+
+.imgmars h1 {
+    font-weight: normal;
+    padding-bottom: 70px;
+}
+
+.imgmars img {
+    width: 350px;
+    height: 350px;
+}
+
+.text {
+    width: 400px;
+    height: 500px;
+    display: block;
+}
+

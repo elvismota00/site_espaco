@@ -103,5 +103,27 @@ nav ul li a:hover {
     width: 400px;
     height: 500px;
     display: block;
+    align-items: center;
 }
 
+.lista {
+    width: 300px;
+    height: 50px;
+}
+
+.lista ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text h2 {
+    font-family: assassin;
+    font-size: 100px;
+    font-weight: normal;
+}

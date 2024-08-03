@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: manrope-xlight;
-    src: url(fonts/Manrope/static/Manrope-ExtraLight.ttf);
+    font-family: assassin;
+    src: url(fonts/assassin/Assassin$.ttf);
 }
 
 body {
@@ -38,6 +38,7 @@ header {
 }
 
 .logo {
+    display: block;
     width: 70px; 
     height: auto;
     margin-left: 40px;
@@ -50,14 +51,14 @@ header {
 }
 
 #pri {
-    padding-left: 80px;
+    margin-left: 80px;
 }
 
 nav ul li {
     float: left; 
     color: #fff; 
     width: auto; 
-    margin: 0.8em;
+    margin: 0.9em;
     list-style: none;
     font-size: 18px;
     font-family: manrope;
@@ -69,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #c8c8ce;
+    border-bottom: 3px solid white;
 }
 
 .cont {
@@ -87,13 +88,21 @@ nav ul li a:hover {
     width: 450px;
 }
 
+h1 {
+    font-size: 35px;
+}
+
 .box h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-family: assassin;
+    font-size: 110px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-family: roboto-light;
+    font-weight: normal;
     font-size: 24px;
 }
 
@@ -106,6 +115,8 @@ h3 {
     height: 250px;
     background-color: #ffffff;
     margin-left: 400px;
+    font-family: assassin;
+    font-weight: normal;
 }
 
 
